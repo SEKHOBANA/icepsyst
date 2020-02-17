@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { PartnersComponent } from './partners/partners.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -24,11 +26,14 @@ import { PartnersComponent } from './partners/partners.component';
     AboutComponent,
     ProjectsComponent,
     ContactsComponent,
-    PartnersComponent
+    PartnersComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
     
   ],
   providers: [],
