@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { PartnersComponent } from './partners/partners.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -24,7 +25,8 @@ import { PartnersComponent } from './partners/partners.component';
     AboutComponent,
     ProjectsComponent,
     ContactsComponent,
-    PartnersComponent
+    PartnersComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

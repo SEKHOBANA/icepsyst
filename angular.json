@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ICEPS"
+    }
+  },
+  "defaultProject": "ICEPS",
+  "cli": {
+    "analytics": "9a0da9b3-cee7-475e-92a1-d87315156c71"
+  }
 }

@@ -1,0 +1,74 @@
+<p>register works!</p>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Registration">
+    Register user
+</button>
+
+
+<!-- Modal -->
+<!-- lunch button uses id as referrence -->
+<div class="modal fade" id="Registration" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+    aria-hidden="true">
+    <div class="modal-dialog modal-ls" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center">ICEP Registration</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" formControlName="fname" class="form-control"
+                            placeholder="Enter Your First Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" formControlName="lname" class="form-control"
+                            placeholder="Enter Your Last Name">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="email" formControlName="email" class="form-control" aria-describedby="emailHelp"
+                            placeholder="Enter your Email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" formControlName="pword" class="form-control"
+                                    placeholder="Enter Secret Password">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label>Confirm Password</label>
+                                <input type="password" formControlName="pword" class="form-control"
+                                    placeholder="Enter Secret Password">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a [routerLink]="['/login']" class="btn btn-link">Login here</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal end -->
