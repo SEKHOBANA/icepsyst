@@ -6,7 +6,6 @@ import {AboutComponent } from './about/about.component';
 import {ProjectsComponent } from './projects/projects.component';
 import {ContactsComponent} from './contacts/contacts.component';
 import {PartnersComponent} from './partners/partners.component';
-import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   {path:'landing', component: LandingComponent},
@@ -15,7 +14,6 @@ const routes: Routes = [
   {path:'projects',component:ProjectsComponent},
   {path:'contacts',component:ContactsComponent},
   {path:'partners',component:PartnersComponent},
-  {path:'register', component: RegisterComponent },
   {path:'',redirectTo:'landing', pathMatch:'full'}
 
 ];
