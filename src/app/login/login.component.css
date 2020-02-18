@@ -1,0 +1,17 @@
+button{
+    width: 100%;
+    /* // text-align: center; */
+    
+}
+
+h3{
+    text-align: center;
+}
+.jumbotron{
+    /* background-image: url(../../assets/pictures/seps.jpg); */
+    background-size: cover;
+    text-decoration: aliceblue;
+}
+/* label{
+    color: aliceblue;
+} */
