@@ -11,6 +11,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { PartnersComponent } from './partners/partners.component';
 import { RegisterComponent } from './register/register.component';
+import { ApplicationComponent } from './application/application.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -26,7 +28,9 @@ import { RegisterComponent } from './register/register.component';
     ProjectsComponent,
     ContactsComponent,
     PartnersComponent,
-    RegisterComponent
+    RegisterComponent,
+    ApplicationComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

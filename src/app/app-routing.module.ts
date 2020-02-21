@@ -7,6 +7,8 @@ import {ProjectsComponent } from './projects/projects.component';
 import {ContactsComponent} from './contacts/contacts.component';
 import {PartnersComponent} from './partners/partners.component';
 import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { ApplicationComponent } from './application/application.component';
 
 const routes: Routes = [
   {path:'landing', component: LandingComponent},
@@ -16,6 +18,8 @@ const routes: Routes = [
   {path:'contacts',component:ContactsComponent},
   {path:'partners',component:PartnersComponent},
   {path:'register', component: RegisterComponent },
+  {path:'login', component: LoginComponent },
+  {path:'application', component: ApplicationComponent },
   {path:'',redirectTo:'landing', pathMatch:'full'}
 
 ];
