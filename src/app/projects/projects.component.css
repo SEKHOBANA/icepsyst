@@ -1,12 +1,13 @@
 .senepe
 {
-    padding-right: 400px;
+    padding-right: 700px;
 }
 
 .images
 {
+  padding-top: 80px;
   display: flex;
-  margin-top: 200px;
+  height: 100%;
 }
 
 html,body
@@ -31,7 +32,7 @@ font-family: Montserrat;
 
 .nav
 {
-  /* position: fixed; */
+ position: fixed;
   top: 0;
   left: 0;
   margin:0;
@@ -42,7 +43,7 @@ font-family: Montserrat;
   background-color: grey;
 }
 
-.logo
+/* .logo
 {
     letter-spacing: 1px;
     float: left;
@@ -52,25 +53,25 @@ font-family: Montserrat;
     padding-left: 100px;
     padding-right: 600px;
    
-}
+} */
 .menu{
     float: right;
-    line-height: 5px;
+    line-height: 50px;
  }
  
 
- .menu ul li
+ .menu ul li 
  {
  display: inline-block;
  }
 
- .menu 
+ .menu ul li a
  {
    text-decoration: none;
-   color:blue;
+   color: white;
    font-size:16px;
    font-weight: lighter;
-   /* padding: 0 20px */
+   
  }
 
 
@@ -98,4 +99,5 @@ font-family: Montserrat;
    font-size:24px;
    font-weight: lighter;
  }
+
 
